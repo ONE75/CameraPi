@@ -7,8 +7,8 @@ config = {
     'name': 'CameraPi',
 	'usbresetpath': '/home/pi/usbreset',
 	'bottle_staticfilepath' : '/home/pi/python/projects/web/cameraweb/static',
-	'bottle_port' : 80,
+	'bottle_port' : 8080,
 	'bottle_debug': True,
 	'bottle_reloader': True,
-	'bottle_ip' : '192.168.1.100'
+	'bottle_ip' : 'localhost'
 }
